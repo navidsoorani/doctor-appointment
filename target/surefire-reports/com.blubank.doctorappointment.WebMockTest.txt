@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.blubank.doctorappointment.WebMockTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.906 s <<< FAILURE! - in com.blubank.doctorappointment.WebMockTest
+addDoctorSlot  Time elapsed: 0.076 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.blubank.doctorappointment.dto.TimeSlotRequest["start"])
+	at com.blubank.doctorappointment.WebMockTest.addDoctorSlot(WebMockTest.java:64)
+
